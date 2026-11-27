@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gobble Run — The Great Turkey Escape</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="540" aria-label="Gobble Run turkey escape game"></canvas>
+  <div id="bar">
+    <button id="btn-start" type="button">Start escape (Enter)</button>
+    <button id="btn-restart" type="button">Restart (R)</button>
+    <button id="btn-mute" type="button">Sound: on (M)</button>
+    <span id="hint">Move: A/D or arrows &middot; Jump: Space/W &middot; Dash: Shift &middot; Hide in hay: hold S near a haystack</span>
+  </div>
+  <p id="foot">Gobble Run — an original turkey escape game. A turkey flees the farm, the barn and the kitchen before Thanksgiving dinner. No network, no libraries, just canvas.</p>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
